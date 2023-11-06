@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-image: url("images/nature.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+.quote-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#quote-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px 0px 30px;
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 400px;
+}
+#quote-box:hover{
+    background-color: white;
+    color: black;
+}
+#author{
+    font-weight: 800;
+}
+#quote{
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
